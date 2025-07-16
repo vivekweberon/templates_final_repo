@@ -1,0 +1,153 @@
+/* Modal styling*/
+.cmodal {
+  display: none; 
+  position: fixed;
+  z-index: 50; 
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.cmodal hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.cmodal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 0px){
+    .cmodal-content {
+  		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 768px){
+    .cmodal-content {
+  		width: 60%;
+	}
+}
+
+@media only screen and (min-width: 990px){
+    .cmodal-content {
+  		width: 40%;
+	}
+}
+
+/* Mautic form and Oauth button styling*/
+.mauticform-button-wrapper, .mauticform-button{
+	margin: auto;
+	width: 240px !important;
+}
+
+#my-signin2{
+	width: 240px;
+	margin: auto;
+	padding: 10px 0px;
+}
+
+.formHeader {
+	font-size: 24px;
+   	color: brown;
+   	font-weight: bold; 
+   	text-align:center
+}
+
+.secondaryFormHeader {
+	color: brown;
+	font-size: medium;
+	font-weight: bold; 
+	text-align:center
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=url], input[type=password], input[type=number], input[type=date], textarea, select {
+   	padding: 11px 20px;
+   	border: 2px solid #cacdd5;
+   	font-size: 14px;
+    color: #626262;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+button[type=submit] {
+	color: #ffffff !important; 
+	background-color: #7bad42 !important;
+	padding: 11px 20px !important;
+   	font-size: 15px !important;
+   	margin-bottom: 50px !important;
+}
+
+button[type=submit]:hover, #readMore:hover {
+    background-color: #618834 !important;
+}
+
+#readMore {
+	background-color: #7bad42;
+    padding: 11px 20px;
+    font-size: 15px;
+    color: #ffffff;
+    border: 1px solid transparent;
+}
+
+.srLink {
+	font-size: 18px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.welcomeMessage {
+	font-weight: bold; 
+	font-size: 18px; 
+	color: brown; 
+	text-align:center
+}
+
+.mauticform-freetext {
+	color: brown;
+	font-size: 18px;
+}
+
+.mauticform-message {
+  text-align: center;
+	font-weight: bold;
+}
+
+/* UserID DWC on Report Page */
+
+#dwc_ucid {
+    display: none;	
+}

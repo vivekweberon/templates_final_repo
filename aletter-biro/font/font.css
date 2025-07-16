@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'biro_script_standard_us';
+  font-style: normal;
+  vertical-align: middle;
+  src: url('./biro_script_standard_us.woff'); 
+}
+
+@font-face{
+  font-family: 'biro_script_bold_standard_us';
+  font-style: normal;
+  vertical-align: middle;
+  src: url('./biro_script_bold_standard_us.woff');
+}
